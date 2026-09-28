@@ -1,7 +1,13 @@
-export default function Logo() {
+import Image from "next/image";
+
+export default function Logo({ height = 28 }: { height?: number }) {
   return (
-    <span style={{ fontFamily: "var(--font-sora)", fontWeight: 800, fontSize: 20, letterSpacing: "-0.5px" }}>
-      howz<span style={{ color: "#f97316" }}>trip</span>
-    </span>
+    <Image
+      src="/logo.svg"
+      alt="Howztrip"
+      height={height}
+      width={Math.round(height * (190 / 44))}
+      priority
+    />
   );
 }

@@ -370,7 +370,7 @@ export default function TravellerPage() {
 
       <footer>
         <div className="wrap footer-inner">
-          <div className="footer-logo">howz<span>trip</span></div>
+          <div className="footer-logo"><img src="/logo.svg" alt="Howztrip" height="22" style={{filter:"brightness(0) invert(1)",opacity:.85}} /></div>
           <div className="footer-links">
             <Link href="/for-operators">For Operators</Link>
             <a href="#">Privacy</a>
