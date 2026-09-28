@@ -16,7 +16,7 @@ export default function OperatorsPage() {
 
       <nav className="nav">
         <div className="wrap nav-inner">
-          <Link href="/"><img src="/logo-white.svg" alt="Howztrip" height="35" /></Link>
+          <Link href="/"><img src="/logo-white.svg" alt="Howztrip" style={{height:"35px",width:"auto",display:"block"}} /></Link>
           <div className="nav-links">
             <a href="#problem">The problem</a>
             <a href="#features">Features</a>
@@ -319,7 +319,7 @@ export default function OperatorsPage() {
 
       <footer>
         <div className="wrap footer-inner">
-          <div className="footer-logo"><img src="/logo-white.svg" alt="Howztrip" height="26" /></div>
+          <div className="footer-logo"><img src="/logo-white.svg" alt="Howztrip" style={{height:"26px",width:"auto",display:"block"}} /></div>
           <div className="footer-links">
             <Link href="/">For Travellers</Link>
             <a href="#">Privacy</a>
