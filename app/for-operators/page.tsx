@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import Logo from "@/components/Logo";
 
 export const metadata: Metadata = {
   title: "Howztrip for Operators — Give Your Travellers Calm, Not Chaos",
@@ -17,7 +16,7 @@ export default function OperatorsPage() {
 
       <nav className="nav">
         <div className="wrap nav-inner">
-          <Link href="/"><Logo /></Link>
+          <Link href="/"><img src="/logo-white.svg" alt="Howztrip" height="35" /></Link>
           <div className="nav-links">
             <a href="#problem">The problem</a>
             <a href="#features">Features</a>
